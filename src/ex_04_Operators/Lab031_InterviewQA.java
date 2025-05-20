@@ -8,7 +8,9 @@ public class Lab031_InterviewQA {
         System.out.println(s2+s1); //joins
         int a= 10;
         int b=20;
-        System.out.println(a+b);//Math
+        System.out.println(a+b);
+        System.out.println(s1+a);
+        //Math
         // + -> behave differently with the data type.
         // + -> operator overloading
 
