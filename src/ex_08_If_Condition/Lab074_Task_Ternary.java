@@ -7,6 +7,6 @@ public class Lab074_Task_Ternary {
        int n2 = Integer.parseInt(args[1]);
        int n3 = Integer.parseInt(args[2]);
 
- String s1 =((n1==n2)&&(n2==n3))?"acute angles":((n1==n2)||(n2==n3))?"Isosceles angles":"scalene angle";
+ String s1 =((n1==n2)&&(n2==n3))?"acute angles":((n1==n2)||(n2==n3)||(n1==n3)?"Isosceles angles":"scalene angle";
         System.out.println(s1);
 }}
